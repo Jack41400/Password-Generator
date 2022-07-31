@@ -7,14 +7,14 @@ var confirmNumbers;
 var confirmUpper;
 var confirmLower;
 
-//Special character list
-var character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
-//Number list
-var number = [0,1,2,3,4,5,6,7,8,9];
-//Uppercase alphabet list
-var alphaUpper = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-//Lowercase alphabet list
-var alphaLower = alphaUpper.toString().toLowerCase(); //needs to be a string for the lowercase funtion to work
+//Special character list with .join at the end to make it a string
+var character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"].join("");
+//Number list with .join at the end to make it a string
+var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"].join(""); // The .join function
+//Uppercase alphabet list with .join at the end to make it a string
+var alphaUpper = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"].join("");
+//Lowercase alphabet list 
+var alphaLower = alphaUpper.toLowerCase(); //shortcut so I don't have to re-type the alphabet in lowercase
 
 // Write password to the #password input
 
@@ -100,8 +100,8 @@ function writePassword() {
 
 
 //this sets the variables for the random password (as of now they are just manually set to 8 letters -upper and lower- and numbers).
-    var length = 8,
-        charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    var length = enter,
+        charset = choices,
         retVal = ""; //this should be what is returned when running this function.
 
 // This is a loop made to randomize the characters that will go in the return value.
@@ -109,20 +109,16 @@ function writePassword() {
         retVal += charset.charAt(Math.floor(Math.random() * n));
     }
     return retVal;
+}
 
 //this inserts the varible passwordText to The HTML id #password
   var passwordText = document.querySelector("#password");
 //this sets passwordText to be the same as password
   passwordText.value = password;
 
-  }
 }
 
 // Add event listener to generate button
 
 //This line links clicking the generate button in the HTML with the write password function
 generateBtn.addEventListener("click", writePassword);
-
-var lowerSetNoSpecial = "abcdefghijklmnopqrstuvwxyz0123456789";
-var upperSetNoSpecial = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-var mixedSetNoSpecial = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
