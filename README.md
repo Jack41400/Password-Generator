@@ -15,6 +15,8 @@ The randomizer and window prompt functions were left to be added in.
 
 ![Starter JavaScript](./Assests/Images/JS-Starter-code.JPG)
 
+This project is currently deployed using Github Pages at [https://jack41400.github.io/Password-Generator/](https://jack41400.github.io/Password-Generator/)
+
 ## Table of contents
 
 * [Description](#description)
@@ -36,10 +38,17 @@ Besides a simple text editor to view the code. There are no specific requirement
 
 ### Installing
 
-You can download the zip or clone a copy of this repository, or just follow the deployed Github Pages link.
+You can download the zip or clone a copy of this repository, or just follow the deployed Github Pages link [Here](https://jack41400.github.io/Password-Generator/)
 
 ## Main Goals
 
+- Clicking the 'Generate' button causes a series of prompts for password criteria to appear
+- Can select the appropriate criteria for the password being generated
+- Can select any length for the password between 8 - 128 characters
+- Can confirm lowercase, uppercase, numbers and special characters to be included in the password
+- Input should be validated when at least one criteria is selected
+- a password that matches the criteria selected should be generated
+- The generated password should be displayed in an alert or written to the page.
 
 
 ## Summary
@@ -53,6 +62,22 @@ I then started work on the window prompt function. I set the min and max varible
 After all of the window prompts and confirms were written out. All I had to do was change the answers given into varibles that plugged into the for loop I implemented earlier. Once that was complete, The objectives for the project had been met!
 
 ## Usage
+
+Once the webpage is opened, User can click the generate button.
+
+![gif clicking generate](./Assests/Images/gif-PWGen-buttonclick.gif)
+
+Once the user clicks on the generate button, a window prompt will appear asking for password length. The user can input any integer from 8 - 128.
+
+After the user inputs the the length they are then presents 4 confirm windows, confirm if they want to include Lowercase, Uppercase, Number, and or Special Characters in their password.
+
+![gif of confirm windows](./Assests/Images/git-PWGen-confirms.gif)
+
+Once the user selects all of their criteria. They are then presented a generated password, fitting the criteria selected.
+
+Full walkthrough below
+
+![gif full walkthrough](./Assests/Images/git-PWGen-fullwalkthrough.gif)
 
 
 
