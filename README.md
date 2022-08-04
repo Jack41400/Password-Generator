@@ -17,6 +17,17 @@ The randomizer and window prompt functions were left to be added in.
 
 ## Table of contents
 
+* [Description](#description)
+* [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installing](#installing)
+* [Main Goals](#main-goals)
+* [Summary](#summary)
+* [Usage](#usage)
+* [What I learned](#what-i-learned)
+* [Credits](#credits)
+
+
 ## Getting Started
 
 ### Prerequisites 
@@ -26,6 +37,10 @@ Besides a simple text editor to view the code. There are no specific requirement
 ### Installing
 
 You can download the zip or clone a copy of this repository, or just follow the deployed Github Pages link.
+
+## Main Goals
+
+
 
 ## Summary
 
@@ -37,12 +52,13 @@ I then started work on the window prompt function. I set the min and max varible
 
 After all of the window prompts and confirms were written out. All I had to do was change the answers given into varibles that plugged into the for loop I implemented earlier. Once that was complete, The objectives for the project had been met!
 
-
-
-
-## Installation
-
 ## Usage
+
+
+
+## What I learned
+
+
 
 ## Credits
 
