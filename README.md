@@ -26,6 +26,7 @@ This project is currently deployed using Github Pages at [https://jack41400.gith
 * [Main Goals](#main-goals)
 * [Summary](#summary)
 * [Usage](#usage)
+    -[Full Walkthrough](#full-walkthrough)
 * [What I learned](#what-i-learned)
 * [Credits](#credits)
 
@@ -75,7 +76,7 @@ After the user inputs the the length they are then presents 4 confirm windows, c
 
 Once the user selects all of their criteria. They are then presented a generated password, fitting the criteria selected.
 
-Full walkthrough below
+### Full walkthrough
 
 ![gif full walkthrough](./Assests/Images/git-PWGen-fullwalkthrough.gif)
 
