@@ -17,6 +17,8 @@ The randomizer and window prompt functions were left to be added in.
 
 This project is currently deployed using Github Pages at [https://jack41400.github.io/Password-Generator/](https://jack41400.github.io/Password-Generator/)
 
+Clone the repository [here](https://github.com/Jack41400/Password-Generator.git)
+
 ## Table of contents
 
 * [Description](#description)
@@ -39,7 +41,7 @@ Besides a simple text editor to view the code. There are no specific requirement
 
 ### Installing
 
-You can download the zip or clone a copy of this repository, or just follow the deployed Github Pages link [Here](https://jack41400.github.io/Password-Generator/)
+You can download the zip or clone a copy of [this](https://github.com/Jack41400/Password-Generator.git) repository, or just follow the deployed Github Pages link [Here](https://jack41400.github.io/Password-Generator/)
 
 ## Main Goals
 
@@ -84,7 +86,11 @@ Once the user selects all of their criteria. They are then presented a generated
 
 ## What I learned
 
+After working on the project this week, I developed a more sound understanding of the window prompt, alert, and confirm functions. I also learned how to set user input as variables by using these functions. I am also beginning to get a grasp of how important setting up the variables ahead of writing the functions actually is.
 
 
 ## Credits
 
+All assets for this projects were provided by Trilogy Education Services
+
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
